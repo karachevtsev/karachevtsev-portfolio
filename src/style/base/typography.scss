@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold/Roboto-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium/Roboto-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../fonts/Roboto-Italic/Roboto-Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+// convert font-size pix to em function
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
