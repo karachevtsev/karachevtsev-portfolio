@@ -1,43 +1,32 @@
-@font-face {
-    font-family: "Roboto-Regular";
-    src: url("../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+html, body{
+    height: 100%;
 }
 
-@font-face {
-    font-family: "Roboto-Bold";
-    src: url("../fonts/Roboto-Bold/Roboto-Bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 16px;
+    color: #89949C;
+    letter-spacing: .01em;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
 
-@font-face {
-    font-family: "Roboto-Medium";
-    src: url("../fonts/Roboto-Medium/Roboto-Medium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+h1, h2, h3, h4, h5, h6 {
+    color: #39444C;
 }
 
-@font-face {
-    font-family: "Roboto-Italic";
-    src: url("../fonts/Roboto-Italic/Roboto-Italic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+a:focus,
+button:focus {
+    outline: none !important;
 }
 
-// convert font-size pix to em function
-@function em($px, $base: $base-font-size) {
-    @return ($px / $base) * 1em;
+a {
+    color: #00CCCB;
+    transition:color .15s ease-out;
 }
 
-a,
-a:hover {
+a:hover,
+a:focus {
+    color: #89949C;
     text-decoration: none;
-    outline: none;
-}
-
-a:focus, a:active {
-    text-decoration: none;
-    outline: none;
 }
