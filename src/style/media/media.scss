@@ -3,16 +3,63 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+    // Header Style Start
+    .header {
+        min-height: 768px;
+        margin-bottom: -64px;
+
+        .container {
+            padding-top: 100px;
+            min-height: 768px;
+        }
+
+        .row {
+            top: 15%;
+        }
+    }
+    // Header Style End
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+    // Header Style Start
+    .header {
+        min-height: 810px;
+
+        .container {
+            min-height: 810px;
+        }
+    }
+    // Header Style End
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
+@media only screen and (max-width : 768px) {
+
+    // Header Style Start
+    .header {
+        min-height: 480px;
+        margin-bottom:0;
+
+        .container {
+            min-height: 480px;
+        }
+
+        .row {
+            top: 140px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 21px;
+        }
+    }
+    // Header Style End
 
     // Navigation Style Start
     #navigation {

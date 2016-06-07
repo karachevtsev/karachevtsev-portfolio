@@ -9,8 +9,10 @@
         transition: padding .3s ease-out;
     }
 
-    .navbar > .container .navbar-brand {
-        padding: 10px 0 5px 15px;
+    .navbar > .container {
+        .navbar-brand {
+            padding: 10px 0 5px 15px;
+        }
     }
 
     .navbar-brand {
@@ -26,7 +28,8 @@
             color: #89949C;
             text-align: center;
             background: none;
-            transition: color .2s ease-out, padding .3s ease-out;
+            transition: color .2s ease-out,
+            padding .3s ease-out;
             &:hover,
             &:focus {
                 padding-top: 4px;
@@ -47,7 +50,6 @@
             border-left: 1px solid #b9c4cC;
         }
     }
-
 }
 
 // Sandwich button style
