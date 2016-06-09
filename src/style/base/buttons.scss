@@ -1,0 +1,39 @@
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    position: relative;
+    padding: 10px 50px;
+    font-size: 21px;
+    border: 2px solid #00CCCB;
+    border-radius: 30px;
+    color: #00CCCB;
+    transition: padding .2s ease-out;
+    &:after {
+        position: absolute;
+        margin-left: 10px;
+        content: "\f061";
+        font-family: fontAwesome;
+        color: #00CCCB;
+        opacity: 0;
+        transition: all .2s ease-out .0s
+    }
+    &:hover {
+        padding-right: 70px;
+        color: #00CCCB;
+    }
+    &:hover:after {
+        margin-left: 30px;
+        opacity: 1;
+    }
+}
+
+.btn-white {
+    border: 2px solid #fff;
+    color: #fff;
+    &:after {
+        color:  #fff;
+    }
+    &:hover {
+        color: #fff;
+    }
+}

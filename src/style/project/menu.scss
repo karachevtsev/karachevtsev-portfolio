@@ -24,7 +24,7 @@
             padding: 7px 30px;
             min-width: 120px;
             font-size: 16px;
-            font-weight: 6400;
+            font-weight: 600;
             color: #89949C;
             text-align: center;
             background: none;
@@ -51,6 +51,19 @@
         }
     }
 }
+
+// Style for navigation when user scrolled
+#navigation.scrolled {
+    background: #fff;
+    border-bottom: 1px solid #b9c4cC;
+
+    .container {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+// Style for navigation when user scrolled
+
 
 // Sandwich button style
 $w: 28px;

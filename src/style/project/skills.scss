@@ -1,6 +1,33 @@
-#main-content{
-    position: relative;
-    background: #fff;
-    box-shadow: 0 -5px 5px rgba(0,0,0,.2);
-    z-index: 10;
+.skills {
+    text-align: center;
+    background-image: url(../img/polygon.png);
+    // background-repeat: no-repeat;
+    // background-position: bottom center;
+    // background-color: #11161b;
+    // color: #fff;
+
+    .chart {
+        position: relative;
+        margin: 30px 0;
+        display: inline-block;
+        margin-bottom: 20px;
+        height: 100px;
+        display: inline-flex;
+
+        .web-lang {
+            display: block;
+            margin: auto;
+            position: absolute;
+            width: 100%;
+            font-size: 55px;
+            text-align: center;
+        }
+    }
+
+    .skill-level {
+        display: block;
+        margin: 0 0 20px;
+        font-size: 21px;
+        color: #69747C;
+    }
 }

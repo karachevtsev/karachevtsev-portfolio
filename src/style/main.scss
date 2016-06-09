@@ -1,6 +1,6 @@
 @import "base/variable.scss";
-@import "base/mixin.scss";
 @import "base/typography.scss";
+@import "base/mixin.scss";
 @import "base/buttons.scss";
 @import "base/forms.scss";
 @import "base/table.scss";
@@ -10,6 +10,10 @@
 @import "project/menu.scss";
 @import "project/header.scss";
 @import "project/footer.scss";
+@import "project/section.scss";
+@import "project/services.scss";
+@import "project/profile.scss";
 @import "project/skills.scss";
+@import "project/works.scss";
 
 @import "media/media.scss";

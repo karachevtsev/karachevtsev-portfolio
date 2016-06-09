@@ -19,6 +19,14 @@
     }
     // Header Style End
 
+    // Servises Style Start
+    .services {
+        .service-item {
+            padding: 0 15px;
+        }
+    }
+    // Servises Style End
+
 }
 
 /* Medium Devices, Desktops */
@@ -33,6 +41,27 @@
         }
     }
     // Header Style End
+
+    // Servises Style Start
+    .services {
+
+        .service-item {
+            &:hover i {
+                font-size: 92px;
+            }
+
+            .service-icon {
+                width: 150px;
+                height: 150px;
+            }
+
+            i {
+                font-size: 62px;
+                line-height: 150px;
+            }
+        }
+    }
+    // Servises Style End
 }
 
 /* Small Devices, Tablets */
@@ -88,6 +117,16 @@
         }
     }
     // Navigation Style End
+
+    // Latest Works Style Start
+    .works {
+        text-align: center;
+
+        .btn {
+            margin-bottom: 30px;
+        }
+    }
+    // Latest Works Style End
 
 }
 

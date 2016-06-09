@@ -1,0 +1,78 @@
+#main-content {
+    position: relative;
+    padding-top: 20px;
+    background: #fff;
+    box-shadow: 0 -5px 5px rgba(0,0,0,.2);
+    z-index: 10;
+}
+
+.scroll-down {
+    margin-bottom: -60px;
+    text-align: center;
+
+    a {
+        display: inline-block;
+        padding:10px 50px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: .02em;
+        color: #89949C;
+        text-align: center;
+        transition:all .2s ease-out;
+        &:after {
+            display: block;
+            margin-top: -7px;
+            content: "\f0d7";
+            font-family: fontAwesome;
+            font-size: 21px;
+        }
+        &:hover {
+            padding-top: 11px;
+            padding-bottom: 9px;
+            color:#00CCCB;
+        }
+        &:focus,
+        &:active {
+            color:#89949C;
+        }
+    }
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 62px;
+    font-weight: 400;
+    color: #39444C;
+    text-align: center;
+}
+
+.section-gray {
+    background: #fbfbfc;
+}
+
+.devider {
+    border-top: 1px solid #b9c4cC;
+    margin: 80px 0 80px
+}
+
+.action {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    background-image: url(../img/polygon.png);
+    background-color: #00CCCB;
+
+    p {
+        margin-bottom: 50px;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+}
