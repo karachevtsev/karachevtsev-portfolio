@@ -1,0 +1,58 @@
+.contact {
+    position: relative;
+    background: url(../img/contact-bg.jpg) center center no-repeat;
+    &:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #07141f;
+        opacity: .9;
+        z-index: 1;
+    }
+
+    .section-title {
+        color: #fff;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    p,
+    .telephone {
+        display: block;
+        font-size: 21px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+
+    .my-mail {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .social {
+        margin-bottom: 20px;
+
+        .social-link {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            &:hover {
+                text-decoration: none;
+                border: none;
+                border-radius: 0;
+                color: #00CCCB;
+            }
+
+            i {
+               margin: auto;
+            }
+        }
+    }
+}

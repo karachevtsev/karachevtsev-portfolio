@@ -292,6 +292,53 @@
         </section>
         <!-- Start Portfolio Section -->
 
+        <!-- Start Сontact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">My contacts</h2>
+                    <div class="col-sm-6 col-md-5">
+                        <p>Artem Karachevtsev <br>
+                        Kiev, Ukraine <br></p>
+                        <a class="telephone" href="tel:+38(050)28-24-290">+38 (050) 28-24-290</a>
+                        <div class="social">
+                            <a href="" class="social-link"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="" class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="" class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </div>
+                        <a class="my-mail" href="artemkarachevtsev@gmail.com">artemkarachevtsev@gmail.com</a>
+                    </div>
+                    <!-- Start Сontact Form -->
+                    <div class="col-sm-6 col-md-offset-1">
+                        <form id="contact-form" action="contact.php" method="post" novalidate>
+                            <div class="form-group">
+                                <div class="controls">
+                                    <input id="contact-name" name="contactName" class="form-control requiredField" type="text" data-error-empty="is required">
+                                    <label class="control-label" for="contact-name">Name</label>
+                                </div>
+                            </div><!-- End name input -->
+                            <div class="form-group">
+                                <div class="controls">
+                                    <input id="contact-mail" name="email" class="form-control requiredField" type="email" data-error-empty="is required" data-error-invalid="is invalid">
+                                    <label class="control-label" for="contact-mail">Email</label>
+                                </div>
+                            </div><!-- End email input -->
+                            <div class="form-group">
+                                <div class="controls">
+                                    <textarea id="contact-message" name="comments" class="form-control requiredField" rows="6" data-error-empty="is required"></textarea>
+                                    <label class="control-label" for="contact-message">Message</label>
+                                </div>
+                            </div><!-- End textarea -->
+                            <button name="submit" type="submit" class="btn" data-error-message="Please fill the required fields" data-sending-message="Sending Message" data-ok-message="Your Message has been sent!">Send</button>
+                            <input type="hidden" name="submitted" id="submitted" value="true" />
+                        </form>
+                    </div>
+                     <!-- End Сontact Form -->
+                </div>
+            </div>
+        </section>
+        <!-- End Сontact Section -->
+
     </div>
     <!-- End Main Content -->
 

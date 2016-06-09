@@ -1,0 +1,82 @@
+#contact-form {
+
+    .form-group {
+        position: relative;
+
+        label {
+            position: absolute;
+            top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #88949C;
+            z-index: -1;
+            transition: all .25s ease-out;
+        }
+    }
+
+    .form-control:focus + label {
+        top: -20px;
+        color: #fff;
+    }
+
+    .form-control {
+        padding:10px 0;
+        margin-bottom: 40px;
+        font-size: 18px;
+        height:auto;
+        background: none;
+        border:none;
+        border-radius: 0;
+        border-bottom: 2px solid;
+        box-shadow: none;
+        -webkit-transition: border .25s ease-out;
+        transition: border .25s ease-out;
+        color: #fff;
+
+        &.input-filled + label {
+            top: -20px;
+        }
+
+        &:focus {
+            border-bottom: 2px solid #00CCCB;
+        }
+
+        &::-webkit-input-placeholder,
+        &:-moz-placeholder,
+        &::-moz-placeholder,
+        &::-ms-input-placeholder {
+            color: #fff;
+            opacity: .5;
+        }
+
+        &:focus::-webkit-input-placeholder,
+        &:focus:-moz-placeholder,
+        &:focus:-ms-placeholder {
+            opacity: 1;
+        }
+    }
+
+    textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .btn,
+    .btn:focus {
+        float: right;
+        margin-top: -10px;
+        padding: 0;
+        font-size: 21px;
+        color: #fff;
+        background: none;
+        border: none;
+        transition: all .15s ease-out;
+        margin-right: 50px;
+        &:hover,
+        &:active {
+            color: #00CCCB;
+        }
+    }
+}
+
