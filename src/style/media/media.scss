@@ -70,7 +70,7 @@
     // Header Style Start
     .header {
         min-height: 480px;
-        margin-bottom:0;
+        margin-bottom: 0;
 
         .container {
             min-height: 480px;
@@ -118,6 +118,16 @@
     }
     // Navigation Style End
 
+    // Section Style Start
+    .section {
+        padding: 70px 0;
+
+        .section-title {
+            font-size: 38px;
+        }
+    }
+    // Section Style End
+
     // Latest Works Style Start
     .works {
         text-align: center;
@@ -127,6 +137,17 @@
         }
     }
     // Latest Works Style End
+
+    // Profile Section Style Start
+    .profile {
+        font-size: 16px;
+        text-align: center;
+
+        p {
+            text-indent: 0px;
+        }
+    }
+    // Profile Section Style Утв
 
 }
 
