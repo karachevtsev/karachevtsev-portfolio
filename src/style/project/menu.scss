@@ -18,39 +18,48 @@
     .navbar-brand {
         position: relative;
     }
+}
 
-    #main-menu {
-        a {
-            padding: 7px 30px;
-            min-width: 120px;
-            font-size: 16px;
-            font-weight: 600;
-            color: #89949C;
-            text-align: center;
+#main-menu {
+    a {
+        padding: 7px 30px;
+        min-width: 120px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #89949C;
+        text-align: center;
+        background: none;
+        transition: color .2s ease-out,
+        padding .3s ease-out;
+        &:hover,
+        &:focus,
+         {
+            padding-top: 4px;
+            padding-bottom: 10px;
+            color: #00CCCB;
             background: none;
-            transition: color .2s ease-out,
-            padding .3s ease-out;
-            &:hover,
-            &:focus {
-                padding-top: 4px;
-                padding-bottom: 10px;
-                color: #00CCCB;
-                background: none;
-            }
-
-            .fa {
-                display: block;
-                margin-bottom: 5px;
-                font-size: 21px;
-                text-align: center;
-            }
         }
 
-        ul li + li {
-            border-left: 1px solid #b9c4cC;
+        .fa {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 21px;
+            text-align: center;
         }
     }
+
+    ul li + li {
+        border-left: 1px solid #b9c4cC;
+    }
+
+    .active {
+        padding-top: 4px;
+        padding-bottom: 10px;
+        color: #00CCCB;
+        background: none;
+    }
 }
+
 
 // Style for navigation when user scrolled
 #navigation.scrolled {
