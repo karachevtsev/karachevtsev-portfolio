@@ -1,4 +1,5 @@
 .services {
+    padding: 100px 0;
 
     .service-item {
         margin: 30px 0;
@@ -44,5 +45,24 @@
             font-weight: 400;
             color: #39444C;
         }
+    }
+}
+
+.devider {
+    border-top: 1px solid #b9c4cC;
+    margin: 80px 0 80px
+}
+
+.action {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    background-image: url(../img/polygon.png);
+    background-color: #00CCCB;
+
+    p {
+        margin-bottom: 50px;
+        font-size: 32px;
+        font-weight: 400;
     }
 }

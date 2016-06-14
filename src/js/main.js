@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('#skills').waypoint(function() {
+    $('.skills').waypoint(function() {
         $('.chart').each(function() {
         $(this).easyPieChart({
                 size: 130,

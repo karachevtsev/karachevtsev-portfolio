@@ -25,16 +25,18 @@
         margin-left: 30px;
         opacity: 1;
     }
+    &:focus {
+        color: #00CCCB;
+    }
 }
 
 .btn-white {
     border: 2px solid #fff;
     color: #fff;
-    &:after {
+    &:after,
+    &:hover,
+    &:focus {
         color:  #fff;
-    }
-    &:hover {
-        color: #fff;
     }
 }
 
@@ -46,7 +48,6 @@
         display: inline-flex;
         width: 40px;
         height: 40px;
-        background-color: white;
         border: 1px solid #89949C;
         border-radius: 50%;
         color: #89949C;
