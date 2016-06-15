@@ -26,7 +26,7 @@ $(document).ready(function() {
         e.preventDefault();
         var target =$(this).attr('href');
         $('html, body').stop().animate({scrollTop: $(target).offset().top}, 1600, 'easeInOutExpo',
-            function(){window.location.hash =target;});
+            function(){window.location.hash = target;});
 
         if ($('.navbar-collapse').hasClass('in')){
             $('.navbar-collapse').removeClass('in').addClass('collapse');

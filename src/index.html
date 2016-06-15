@@ -10,16 +10,17 @@
     <!-- Title and Meta Tags End -->
 
     <!-- Favicons Start -->
-    <!-- <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" -->>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
     <!-- Favicons End -->
 
     <!-- CSS Start -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- CSS End -->
 
@@ -34,14 +35,17 @@
     <script type="text/javascript" src="js/modernizr.min.js"></script>
     <!-- Scripts Start -->
 </head>
-<body data-spy="scroll" data-target="#navigation" data-offset="400">
+<body data-spy="scroll" data-target="#navigation" data-offset="100">
 
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    <!-- Page Preloader Start -->
     <div id="page-preloader">
          <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
     </div>
+    <!-- Page Preloader End -->
 
     <!-- Main Navigation Start -->
     <div id="navigation" class="navbar navbar-fixed-top">
@@ -54,7 +58,7 @@
                         <div class="sw-footer"></div>
                     </div>
                 </button>
-                <a class="navbar-brand" href="#"><img src="" alt=""/>Logo</a>
+                <!-- <a class="navbar-brand" href="#"><img src="" alt=""/></a> -->
             </div>
             <nav id="main-menu" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -81,11 +85,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <img src="img/my-photo.jpg" width="250" class="img-responsive img-circle img-center" alt="Artem Karachevtsev">
-                    <h1>Artem Karachevtsev</h1>
-                    <p>Front-end Developer</p>
-                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>Kiev, Ukraine</span>
-                    <div class="social">
+                    <img src="img/my-photo.jpg" width="250" class="img-responsive img-circle img-center scrollimation fade-down d1" alt="Artem Karachevtsev">
+                    <h1 class="scrollimation fade-down d2">Artem Karachevtsev</h1>
+                    <p class="scrollimation fade-down d2">Front-end Developer</p>
+                    <span class="scrollimation fade-up d3"><i class="fa fa-map-marker" aria-hidden="true"></i>Kiev, Ukraine</span>
+                    <div class="social scrollimation fade-up d3">
                         <a href="" class="social-link"><i class="fa fa-github" aria-hidden="true"></i></a>
                         <a href="" class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         <a href="" class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -111,20 +115,20 @@
             <div class="services">
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title">My Services</h2>
-                        <div class="col-sm-3 service-item">
+                        <h2 class="section-title scrollimation fade-down">My Services</h2>
+                        <div class="col-sm-3 service-item scrollimation fade-left">
                             <div class="service-icon"><i class="devicon-html5-plain-wordmark colored"></i></div>
                             <span>Semantic HTML5 Markup</span>
                         </div>
-                        <div class="col-sm-3 service-item">
+                        <div class="col-sm-3 service-item scrollimation fade-left">
                             <div class="service-icon"><i class="devicon-css3-plain-wordmark colored"></i></div>
                             <span>Modern CSS3 styles</span>
                         </div>
-                        <div class="col-sm-3 service-item">
+                        <div class="col-sm-3 service-item scrollimation fade-left">
                             <div class="service-icon"><i class="devicon-javascript-plain colored"></i></div>
                             <span>Clean JS code</span>
                         </div>
-                        <div class="col-sm-3 service-item">
+                        <div class="col-sm-3 service-item scrollimation fade-left">
                             <div class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
                             <span>Responsive Design</span>
                         </div>
@@ -137,24 +141,24 @@
             <div class="works">
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title">Latest Projects</h2>
-                        <div class="col-sm-5">
+                        <h2 class="section-title scrollimation fade-down">Latest Projects</h2>
+                        <div class="col-sm-5 scrollimation fade-right">
                             <h3>Bahar-Gelin - Online web store</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.</p>
                             <a class="btn" href="#">Visit Website</a>
                         </div>
-                        <div class="col-sm-6 col-sm-offset-1">
+                        <div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
                             <img class="img-responsive" src="img/featured-2.png" alt="" />
                         </div>
                     </div>
                     <div class="devider"></div>
                     <div class="row">
-                        <div class="col-sm-6 col-sm-push-6">
+                        <div class="col-sm-6 col-sm-push-6 scrollimation fade-left">
                             <h3>Bahar-Gelin - Online web store</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipscrollimation fade-leftttis.</p>
                             <a class="btn" href="#">Visit Website</a>
                         </div>
-                        <div class="col-sm-6 col-sm-pull-6">
+                        <div class="col-sm-6 col-sm-pull-6 scrollimation fade-right">
                             <img class="img-responsive" src="img/featured-2.png" alt="" />
                         </div>
                     </div>
@@ -167,10 +171,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <p>It's not about ideas. It's about making ideas happen!</p>
+                            <p class="scrollimation fade-up d1">It's not about ideas. It's about making ideas happen!</p>
                         </div>
                         <div class="col-sm-10 col-sm-offset-1 text-center">
-                            <a class="btn btn-white scrollto" href="#contact">Contact me</a>
+                            <a class="btn btn-white scrollto scrollimation fade-up d2" href="#contact">Contact me</a>
                         </div>
                     </div>
                 </div>
@@ -185,15 +189,15 @@
             <div class="about">
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title">My Profile</h2>
-                        <div class="col-md-12">
+                        <h2 class="section-title scrollimation scrollimation fade-down">My Profile</h2>
+                        <div class="col-md-12 scrollimation fade-left d2">
                             <p>My name is Artem Karachevtsev. I am a graduee of GoIT Front-end development courses and having strong educational background. I believe I can make a significant contribution to your project.</p>
                             <p>During last two years I’ve been working hard in obtaining special skills and knowledges in front-end development sphere and already worked over several projects. So now I have extensive experience in HTML, CSS, BEM-notation, Twitter Bootstrap, JavaScript, jQuery, Ajax, CSS preprocessors (Sass), SVC Git, using development tools like Gulp, Webpack, npm. I also have basic knowledge of client-side library for building web applications such as React, React-bootstrap.</p>
                             <p>I possess excellent communication skills, able to work as a part of a team or individually, ready to learn and highly motivated.</p>
                             <p>Thank you for your consideration. I would be waiting for you hiring.</p>
                         </div>
                         <div class="col-sm-10 col-sm-offset-1 text-center">
-                            <a class="btn" href="">Download my CV</a>
+                            <a class="btn scrollimation fade-up d3" href="">Download my CV</a>
                         <!-- <a class="btn" href="">My Portfolio</a> -->
                         </div>
                     </div>
@@ -205,7 +209,7 @@
             <div class="skills">
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title">Programming skills</h2>
+                        <h2 class="section-title scrollimation fade-down">Programming skills</h2>
                         <div class="col-xs-6 col-sm-4 col-md-2">
                             <span class="chart" data-percent="90"><span class="web-lang"><i class="devicon-html5-plain colored"></i></span></span>
                             <span class="skill-level">Expert</span>
@@ -241,11 +245,11 @@
         <section id="portfolio" class="section portfolio">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title">My portfolio</h2>
+                    <h2 class="section-title scrollimation fade-down">My portfolio</h2>
 
                         <!-- Start Portfolio Item -->
                         <div class="col-sm-6 col-md-3 col-lg-3 p0">
-                            <a href="#" class="portfolio-item">
+                            <a href="#" class="portfolio-item  scrollimation fade-up d1">
                                 <img class="img-responsive project-image" src="img/thumb-1.jpg" alt="">
                                 <div class="hover-title">
                                     <h3 class="project-title">Bahar-Gelin</h3>
@@ -257,7 +261,7 @@
 
                         <!-- Start Portfolio Item -->
                         <div class="col-sm-6 col-md-3 col-lg-3 p0">
-                            <a href="" class="portfolio-item">
+                            <a href="" class="portfolio-item  scrollimation fade-up d2">
                                 <img class="img-responsive project-image" src="img/thumb-1.jpg" alt="">
                                 <div class="hover-title">
                                     <h3 class="project-title">Bahar-Gelin</h3>
@@ -269,7 +273,7 @@
 
                         <!-- Start Portfolio Item -->
                         <div class="col-sm-6 col-md-3 col-lg-3 p0">
-                            <a href="" class="portfolio-item">
+                            <a href="" class="portfolio-item  scrollimation fade-up d3">
                                 <img class="img-responsive project-image" src="img/thumb-1.jpg" alt="">
                                 <div class="hover-title">
                                     <h3 class="project-title">Bahar-Gelin</h3>
@@ -281,7 +285,7 @@
 
                         <!-- Start Portfolio Item -->
                         <div class="col-sm-6 col-md-3 col-lg-3 p0">
-                            <a href="" class="portfolio-item">
+                            <a href="" class="portfolio-item  scrollimation fade-up d4">
                                 <img class="img-responsive project-image" src="img/thumb-1.jpg" alt="">
                                 <div class="hover-title">
                                     <h3 class="project-title">Bahar-Gelin</h3>
@@ -292,10 +296,10 @@
                         <!-- End Portfolio Item -->
 
                         <div class="col-md-12">
-                            <p class="project-action">Like what you see? Contact me to discuss about your project!</p>
+                            <p class="project-action scrollimation fade-up d4">Like what you see? Contact me to discuss about your project!</p>
                         </div>
                         <div class="col-sm-10 col-sm-offset-1 text-center">
-                            <a class="btn scrollto" href="#contact">Contact me</a>
+                            <a class="btn scrollto scrollimation fade-up d4" href="#contact">Contact me</a>
                         </div>
 
                 </div>
@@ -307,8 +311,8 @@
         <section id="contact" class="section contact">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title">My contacts</h2>
-                    <div class="col-sm-6 col-md-5">
+                    <h2 class="section-title scrollimation fade-down d1">My contacts</h2>
+                    <div class="col-sm-6 col-md-5 scrollimation fade-right d2">
                         <p>Artem Karachevtsev <br>
                         Kiev, Ukraine <br></p>
                         <a class="telephone" href="tel:+38(050)28-24-290">+38 (050) 28-24-290</a>
@@ -320,7 +324,7 @@
                         <a class="my-mail" href="artemkarachevtsev@gmail.com">artemkarachevtsev@gmail.com</a>
                     </div>
                     <!-- Start Сontact Form -->
-                    <div class="col-sm-6 col-md-offset-1">
+                    <div class="col-sm-6 col-md-offset-1 scrollimation fade-left d3">
                         <form id="contact-form" action="contact.php" method="post" novalidate>
                             <div class="form-group">
                                 <div class="controls">
@@ -389,8 +393,6 @@
 
     </div>
     <!-- End Main Content -->
-
-
 
     <!-- Start Modal Viewer Content-->
     <div id="project-viewer" class="modal">
