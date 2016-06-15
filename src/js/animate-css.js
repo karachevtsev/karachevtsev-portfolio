@@ -1,4 +1,4 @@
-//Animate CSS + WayPoints javaScript Plugin
+//Animate CSS + WayPoints javaScript
 //Example: $(".element").animated("zoomInUp");
 (function($) {
 	$.fn.animated = function(inEffect) {
