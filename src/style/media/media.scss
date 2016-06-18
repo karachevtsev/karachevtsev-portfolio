@@ -65,7 +65,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 
     /*Disable Animation on Mobile Devices*/
     .scrollimation {
@@ -99,14 +99,15 @@
         }
 
         .row {
-            top: 140px;
+            top: 100px;
         }
 
         h1 {
             font-size: 40px;
+            line-height: 60px;
         }
 
-        h2 {
+        p {
             font-size: 21px;
         }
     }
@@ -117,11 +118,15 @@
         background: #fff;
         border-bottom: 1px solid #b9c4cC;
 
-        .navbar > .container {
-            .navbar-brand {
-                padding: 5px 0 5px 15px;
-            }
+        .container {
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
+
+        .navbar-brand {
+             padding: 18px 0 5px 25px;
+        }
+
 
         #main-menu {
             a {
@@ -138,6 +143,15 @@
             }
         }
     }
+
+    // Style for navigation when user scrolled
+    #navigation.scrolled {
+        .container {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    // Style for navigation when user scrolled
     // Navigation Style End
 
     // Section Style Start
@@ -197,7 +211,28 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    // Header Style Start
+    .header {
 
+        .img-center {
+            width: 200px;
+        }
+
+        h1 {
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+    // Header Style End
 
 }
 

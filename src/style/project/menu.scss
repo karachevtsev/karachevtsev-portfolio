@@ -9,11 +9,10 @@
         transition: padding .3s ease-out;
     }
 
-    .navbar > .container {
-        .navbar-brand {
-            padding: 10px 0 5px 15px;
-        }
+    .navbar-brand {
+        padding: 15px 0 5px 15px;
     }
+
 
     .navbar-brand {
         position: relative;
@@ -45,7 +44,7 @@
         padding .3s ease-out;
         &:hover,
         &:focus
-         {
+        {
             padding-top: 4px;
             padding-bottom: 10px;
             color: #00CCCB;

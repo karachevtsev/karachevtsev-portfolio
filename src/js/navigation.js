@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     $('a.scrollto').click(function(e) {
         e.preventDefault();
-        var target =$(this).attr('href');
+        var target = $(this).attr('href');
         $('html, body').stop().animate({scrollTop: $(target).offset().top}, 1600, 'easeInOutExpo',
             function(){window.location.hash = target;});
 
@@ -27,6 +27,5 @@ $(document).ready(function() {
             $('.navbar-collapse').removeClass('in').addClass('collapse');
         }
     });
-
 
 });
