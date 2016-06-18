@@ -80,3 +80,24 @@
     }
 }
 
+#contact-form .form-group .error-message {
+    margin-left: 8px;
+    color: #FA574B;
+}
+
+#contact-form {
+    position: relative;
+}
+
+#contact-form .contact-form-message {
+    position: absolute;
+    right: 15px;
+    top: 100%;
+    margin-top: 3px;
+    font-size: 16px;
+    opacity: .7;
+}
+
+#contact-form .contact-form-message .fa {
+    margin-right: 5px;
+}

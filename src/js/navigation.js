@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-    // Sandwich toggle
-    $('.sandwich').click(function() {
-        $('.sandwich').toggleClass('active');
-    });
-
     // Navigation Functions
     if ($(window).scrollTop()< 10) {
         $('#main-nav').removeClass('scrolled');
