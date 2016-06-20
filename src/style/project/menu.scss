@@ -9,20 +9,13 @@
         transition: padding .3s ease-out;
     }
 
-    .navbar-brand {
-        padding: 15px 0 5px 15px;
-    }
-
-
-    .navbar-brand {
-        position: relative;
-    }
-
     .fa {
         font-size: 26px;
     }
 
     .navbar-brand {
+        padding: 15px 0 5px 15px;
+        position: relative;
         color: #89949C;
         &:hover,
         &:focus {
