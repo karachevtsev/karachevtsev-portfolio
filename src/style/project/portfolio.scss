@@ -1,5 +1,15 @@
 .portfolio {
 
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .row {
+        margin-bottom: 40px;
+
+    }
+
     .portfolio-item {
         display: block;
         position: relative;

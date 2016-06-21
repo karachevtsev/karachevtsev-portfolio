@@ -5,10 +5,10 @@ $(document).ready(function() {
     $.fn.animated = function(inEffect) {
         $(this).css("opacity", "0").addClass("animated").waypoint(function(dir) {
             if (dir === "down") {
-                    $(this).addClass(inEffect).css("opacity", "1");
+                $(this).addClass(inEffect).css("opacity", "1");
             };
         }, {
-            offset: "90%"
+            offset: "85%"
         });
     };
 
@@ -32,6 +32,7 @@ $(document).ready(function() {
         // Hide portfolio-item element on page load
         $('.portfolio-item').addClass('animated');
         $('.portfolio-item').css('opacity', '0');
+
     });
 
     // Animations for all section titles
@@ -50,11 +51,11 @@ $(document).ready(function() {
     // Services Items Animations End
 
     // Latest Works Animations End
-    $('.work-info-left').animated('fadeInLeft');
-    $('.work-img-right').animated('zoomIn');
+    $('.work-info-left').animated('zoomIn');
+    $('.work-img-right').animated('fadeInUp');
     $('.devider').animated('fadeInUp');
-    $('.work-info-right').animated('fadeInRight');
-    $('.work-img-left').animated('zoomIn');
+    $('.work-info-right').animated('zoomIn');
+    $('.work-img-left').animated('fadeInUp');
     // Latest Works Animations End
 
     // Call To Action Animations Start
@@ -72,6 +73,10 @@ $(document).ready(function() {
     }, {offset:'70%'});
     // Profile Animations End
 
+    // Skills-item Animations Start
+     $('.skills-item').animated('zoomIn');
+     // Skills-item Animations End
+
     // Portfolio Items Animations Start
     $('.portfolio').waypoint(function() {
         $('.portfolio-item').each(function(index) {
@@ -80,14 +85,14 @@ $(document).ready(function() {
                 item.addClass('zoomIn').css('opacity', '1');
             }, 400*index);
         });
-    }, {offset:'70%'});
+    }, {offset:'60%'});
 
     $('.project-action').animated('fadeInUp');
     // Portfolio Items Animations End
 
     // Contacts Animations End
-    $('.contact-left').animated('fadeInLeft');
-    $('.contact-right').animated('fadeInRight');
+    $('.contact-left').animated('zoomIn');
+    $('.contact-right').animated('zoomIn');
     // Contacts Animations End
 
     // Refresh scrollSpy function
