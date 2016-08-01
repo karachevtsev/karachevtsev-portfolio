@@ -5,15 +5,10 @@
         margin: 0 auto;
     }
 
-    .row {
-        margin-bottom: 40px;
-
-    }
-
     .portfolio-item {
         display: block;
         position: relative;
-        margin-bottom: 2px;
+        margin-bottom: 30px;
         overflow: hidden;
         background: #fff;
         &:hover .project-image {

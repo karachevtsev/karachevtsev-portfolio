@@ -91,8 +91,8 @@ $(document).ready(function() {
     // Portfolio Items Animations End
 
     // Contacts Animations End
-    $('.contact-left').animated('zoomIn');
-    $('.contact-right').animated('zoomIn');
+    $('.contact-left').animated('fadeInUp');
+    $('.contact-right').animated('fadeInUp');
     // Contacts Animations End
 
     // Refresh scrollSpy function
